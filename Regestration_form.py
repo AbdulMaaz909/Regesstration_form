@@ -32,17 +32,9 @@ Emailentry.grid(row=2,column=3)
 Phonne_Noentry.grid(row=3,column=3)
 Genderentry.grid(row=4,column=3)
 
-
-# checkbutton=tk.Checkbutton(root, text="Remember me?",variable=checkvariable)
 checkbutton = tk.Checkbutton(root, text="Remember me?", variable=checkcache)
 checkbutton.grid(row=6,column=3)
 
 tk.Button(text="Submit",command=getvals).grid(row=7,column=3)
-
-
-
-
-
-
 
 root.mainloop()
